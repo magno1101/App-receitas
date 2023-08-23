@@ -1,0 +1,49 @@
+.recipe-detail-container {
+  background: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #d3d3d3;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.recipe-detail-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.recipe-detail-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.delete-button,
+.edit-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: -5px -5px 10px #ffffff, 5px 5px 10px #d3d3d3;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #e0e0e0;
+  transform: translate(0, -5px);
+}
+
+.button-spacing {
+  margin-bottom: 20px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
